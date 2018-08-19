@@ -1,0 +1,83 @@
+body {
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  height: 134px;
+  width: 134px;
+  padding: 0;
+  max-width: 100%;
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  color: #fff;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+
+  transition: color 0.3s, background-color 0.3s;
+
+  cursor: pointer;
+  outline: 0 !important;
+  text-decoration: none;
+  touch-action: manipulation;
+  user-select: none;
+
+  &:hover,
+  &:active {
+    color: #02ac46;
+    background-color: #fff;
+  }
+}
+#newGame {
+  height: 110px;
+  width: 160px;
+}
+#newGame > img {
+  height: 106px;
+  width: 156px;
+}
+.gameButtons > img {
+  display: block;
+  height: 130px;
+  width: 130px;
+}
+h3,
+p {
+  text-transform: uppercase;
+}
+#resultsbox, #roundsbox {
+  box-sizing: border-box;
+  width: 100px;
+  width: 19.5rem;
+  height: 60px;
+  height: 10.5rem;
+  padding: 5px;
+  margin: 15px auto 15px auto;
+  background-color: #d9d9d9;
+  border: 4px solid #d9d9d9;
+  border-radius: 10px;
+}
+#resultsbox {
+  width: 100px;
+  width: 19.5rem;
+  height: 60px;
+  height: 10.5rem;
+}
+#roundsbox {
+  width: 100px;
+  width: 19.5rem;
+  height: 20px;
+  height: 7.5rem;
+}
+#playerScore, #computerScore {
+  font-size: 16px;
+  color: #00aae3;
+}
