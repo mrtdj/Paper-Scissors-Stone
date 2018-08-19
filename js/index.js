@@ -2,6 +2,14 @@
 var playerScore = 0;
 var computerScore = 0;
 var getHowManyRounds = 0;
+var moves = document.querySelectorAll('player.move');
+var playerMoveLength = moves.length;
+
+for (var i=0; i < playerMoveLength; i++) {
+  moves[i].addEventListener('click', function() {
+    userMove(this.getAttribute('data-move'));
+  });
+}
 
 function howManyRounds () {  
 getHowManyRounds = prompt('How many rounds would You like to play?');
